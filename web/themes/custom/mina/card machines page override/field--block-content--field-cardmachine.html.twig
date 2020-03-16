@@ -1,0 +1,30 @@
+{% extends "block--cardmachinespageheader.html.twig" %}
+{#
+/**
+ * @file
+ * Theme override for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+{% block content %}
+<div>
+    <a href="{{ path('<front>') }}" rel="home">
+      <img class="logo" src="../themes/custom/mina/images/Worldpay-Logo.wine.svg"  />
+    </a>
+    <a class="link" href="{{ path('<front>') }}">worldpay.com</a>
+</div>
+  <div class="card-machine-page-header">
+    <a href="/card-machines" >
+        Worldpay Product Help Centre
+    </a>
+     
+    {# <img class="bgimage" src="../themes/custom/mina/images/worldpay.png"> #}
+  </div>
+{% endblock %}

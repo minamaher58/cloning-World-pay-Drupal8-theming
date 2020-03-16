@@ -1,0 +1,1233 @@
+
+/* Front page and SideBar */
+*
+{
+ box-sizing: border-box;
+ 
+}
+body
+{
+    background-color: rgb(245, 245, 243);
+}
+
+.logo
+{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 300px;
+}
+
+.link
+{
+    text-decoration: none;
+    position: relative;
+    left:1200px;
+   
+    color: rgb(144,180,151);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.bgimage
+{
+    width: 60%;
+    margin-left: 350px;
+    height: 30vh;
+}
+.layout-content
+{
+ width: 80%;
+ float: left;
+ position: relative;
+}
+
+
+.frontpagecols
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  /* width: 70%; */
+  margin-left: 350px;
+  margin-top: -20px;
+}
+
+.rownpad
+{
+    padding: 20px;
+    position: relative;
+}
+
+
+.sidebarfrontpage
+{
+ width: 20%;
+ float: right;
+ background-color: white;
+ 
+}
+.sidebarfrontpage nav ul
+{
+    list-style-type:none;
+    
+}
+.sidebarfrontpage nav ul li
+{
+    margin-top: 10px;
+}
+.sidebarfrontpage nav ul a
+{
+    text-decoration: none;
+    color: rgb(100,100,90);
+    
+}
+
+.sidebarfrontpage nav ul a:hover
+{
+    text-decoration: underline;
+}
+
+.frontpagewidth
+{
+    width: 45%;
+    height: 100%;
+    margin-left: 30px;
+    border: 1px solid rgb(229,229,229);
+    padding: 20px;
+    background-color: rgb(249,250,250);
+   
+}
+
+.frontpagewidth img{
+    width: 100%;
+}
+
+ .vl 
+{  
+     border-left: 1px solid rgb(229,229,229); 
+     height: 90%;
+     position: absolute;  
+} 
+
+/* Card Machines Page */
+.card-machine-page-header a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    font-weight: bold;
+}
+.card-machine-page-header a:hover{
+    color: white;
+}
+
+
+#block-views-block-related-articles-block-1
+{
+    width: 300px;
+    height: 300px;
+}
+
+.card_machines_cols
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  /* width: 70%; */
+  margin-left: 300px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.cardmachinewidth
+{
+    width: 45%;
+}
+.card_machines_cols img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card-machine-page-header
+{
+    width: 65%;
+    margin-left:300px;
+    height: 12vh;    
+    background-color: red;
+    float: left;   
+}
+
+
+ #block-searchform
+{
+    position: relative;
+    left: -350px;
+    top: 20px;
+} 
+
+#input-search
+{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    padding: 6px 10px 6px 20px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+#input-submit
+{
+    border-radius: 10px;
+    background-color: white;
+    padding:  7px 10px;
+}
+
+/*  nodes */
+#content-page--node
+{
+    padding: 40px;
+    background: rgb(227, 233, 227);
+    font-size: 18px;
+}
+
+#content-region
+{
+    margin-top: -12px;
+}
+#block-mina-local-tasks
+{
+    margin-bottom: 40px;
+    
+}
+#block-mina-local-tasks ul 
+{
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#block-mina-local-tasks ul li
+{
+  width: 70%;
+  padding: 10px;
+  background-color: rgb(79, 79, 82);
+  text-align: center;
+  font-size: 20px;
+}
+#block-mina-local-tasks a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#block-mina-local-tasks li:hover
+{
+    background-color: rgb(184, 184, 173);
+}
+
+/* Login form */
+#login-form
+{
+    padding:200px 500px ;
+}
+
+#login-form #block-mina-local-tasks li
+{
+    font-size: 15px;
+    padding: 3px;
+}
+
+header.card-machines-cols
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  width: 70%;
+  margin-left: 300px;
+  margin-top: -20px;
+}
+
+/* Understanding your terminal page style */
+#understanding-your-terminal
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  width: 60%;
+  margin-left: 350px;
+  margin-top: -20px;
+  margin-top: 50px;
+}
+
+/* Reconciling your Terminal */
+#reconciling-your-terminal
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  width: 60%;
+  margin-left: 350px;
+  margin-top: -20px;
+  margin-top: 50px;
+}
+
+.iframe-style
+{
+    width: 70%;
+    height: 50vh;
+    margin-left: 50px;
+}
+
+#block-reconciling
+{
+    background-color: rgb(236,246,252);
+    padding: 5px 60px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#block-reconciling h4{
+    font-weight: bold;
+}
+
+#vl1
+{ 
+     border-left: 3px solid rgb(61,166,229); 
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+
+#vl2
+{
+    border-left: 1px solid rgb(229,229,229); 
+    height: 100%;
+    position: absolute;  
+    left: 300px;
+}
+/* Setting up your terminal */
+#settingup-your-terminal
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  width: 60%;
+  margin-left: 350px;
+  margin-top: -20px;
+  margin-top: 50px;
+}
+
+.settingyourterminal-cols
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(100,100,90);
+  background: white;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+
+.settingyourterminal-width
+{
+    width: 45%;
+}
+.settingyourterminal-width.col-1
+{
+    width: 45%;
+    padding-left: 200px;
+}
+.settingyourterminal-cols img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block; 
+    margin:auto;
+}
+
+.settingyourterminal-rownpad span
+{
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.settingyourterminal-rownpad span a
+{
+  color: red;
+}
+.settingyourterminal-rownpad
+{
+    padding: 20px;
+    position: relative;
+}
+
+
+/* breadcrumb */
+#breadcrumbwidth
+{
+    width: 65%;
+    margin: auto;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+/* Media Query */
+@media(max-width:1200px)  
+{ 
+   .layout-content
+    {
+      float: none;
+      width: 100%;
+    }
+    .sidebarfrontpage
+    {
+        width: 1199px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .link
+    {
+        left: 850px;
+        font-size: 2rem;
+    }
+    .logo
+    {
+        left: 0;
+    }
+   .bgimage
+   {
+    margin-left: 0;
+    width: 100%;
+   }
+   .frontpagecols
+   {
+       margin-left: -20px;
+       font-size: 30px;
+       width: 100%;
+   }
+   .frontpagewidth{
+       width: 100%;
+   }
+   .card-machine-page-header {
+    width: 100%;
+    margin: 0;
+    height: 12vh;
+    background-color: red
+     }
+    #breadcrumbwidth
+    {
+      font-size: 30px;
+      width: 100%;
+      margin: 0;
+      margin-top: 0;
+    }
+    #breadcrumbwidth h2,#breadcrumbwidth  h3,#breadcrumbwidth h4
+    {
+        font-size: large;
+    }
+    #understanding-your-terminal 
+    {
+        width: 100%;
+        margin: 0 180px;
+        font-size: 30px;
+    } 
+  
+}
+@media(max-width:1024px)
+{
+    /* breadcrumb */
+    #breadcrumbwidth
+    {
+      font-size: 30px;
+      width: 100%;
+      margin: 0;
+      margin-top: 0;
+    }
+    #breadcrumbwidth h2,#breadcrumbwidth  h3,#breadcrumbwidth h4
+    {
+        font-size: large;
+    }
+
+    .layout-content
+    {
+      float: none;
+      width: 100%;
+    }
+    /* Side bar */
+    .sidebarfrontpage
+    {
+        width: 1024px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 2px;
+        background-color: rgb(245,245,245);
+    }
+    .sidebarfrontpage nav ul{
+        text-align: left;
+    }
+    /* header */
+    .link
+    {
+        left: 500px;
+        font-size: 3rem;
+    }
+    .logo
+    {
+        width: 300px;
+        height: 100px;
+        left: 0;
+    }
+   .bgimage
+   {
+    margin-left: 0;
+    width: 100%;
+   }
+    /* front page cols */
+   .frontpagecols
+   {
+       margin: 0 -30px 0 0;
+       font-size: 30px;
+       width: 100%;
+   }
+   .frontpagewidth{
+       width: 100%;
+   }
+   /* card machines page */
+   #block-views-block-related-articles-block-1
+   {
+    width: auto;
+   }
+
+   .card-machine-page-header 
+   {
+     width: 100%;
+     margin: 0;
+     height: 12vh;
+     background-color: red;
+    }
+    header.card-machines-cols
+    {  
+        width: 90%;
+        font-size: 30px;
+        margin: 10px 0px 0 20px;
+    }
+    .card_machines_cols
+    {
+        margin: 0;
+    }
+    .cardmachinewidth
+    {
+        width: 40%;
+        font-size: 30px;
+        margin: 30px;
+    }
+    /* Setting up your terminal page */
+    .settingyourterminal-cols
+    {
+        margin: 0;
+    }
+    .settingyourterminal-width.col-1
+    {
+        padding-left: 0;
+    }
+    .settingyourterminal-width img
+    {
+        width: 250px;
+        height: 250px;
+    }
+     
+    .settingyourterminal-cols p
+    {
+        font-size: 35px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .settingyourterminal-rownpad span
+    {
+        font-size: 35px;
+    }
+    
+    /* understanding your terminal page */
+    #understanding-your-terminal 
+    {
+        width: 100%;
+        margin: 0 0px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    #understanding-your-terminal h4
+    {
+        font-size: 30px;
+    }
+    #understanding-your-terminal h2
+    {
+        font-size: 35px;
+    }
+    #understanding-your-terminal h3
+    {
+        font-size: 25px;
+    }
+    /* Reconciling your terminal page */
+    #reconciling-your-terminal
+    {
+        width: 100%;
+        margin: 0;
+        font-size: 35px;
+        padding: 20px;
+    }
+    .iframe-style
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media(max-width:768px)
+{
+    /* breadcrumb */
+    #breadcrumbwidth
+    {
+      font-size: 30px;
+      width: 100%;
+      margin: 0;
+      margin-top: 0;
+    }
+    #breadcrumbwidth h2,#breadcrumbwidth  h3,#breadcrumbwidth h4
+    {
+        font-size: large;
+    }
+
+    .layout-content
+    {
+      float: none;
+      width: 100%;
+    }
+    /* Side bar */
+    .sidebarfrontpage
+    {
+        width: 768px;
+        text-align: center ;
+        font-size: 25px;
+        letter-spacing: 2px;
+        background-color: rgb(245,245,245);
+    }
+    .sidebarfrontpage nav ul
+    {
+        text-align: left;
+    }
+    /* header */
+    .link
+    {
+        left: 400px;
+        font-size: 2rem;
+    }
+    .logo
+    {
+        width: 200px;
+        height: 100px;
+        left: 0;
+    }
+   .bgimage
+   {
+    margin-left: 0;
+    width: 100%;
+   }
+    /* front page cols */
+   .frontpagecols
+   {
+       margin: 0 -30px 0 0;
+       font-size: 30px;
+       width: 100%;
+   }
+   .frontpagewidth{
+       width: 100%;
+   }
+   /* card machines page */
+   #block-views-block-related-articles-block-1
+   {
+    width: auto;
+   }
+
+   .card-machine-page-header 
+   {
+     width: 100%;
+     margin: 0;
+     height: 12vh;
+     background-color: red;
+    }
+    header.card-machines-cols
+    {  
+        width: 90%;
+        font-size: 30px;
+        margin: 10px 0px 0 20px;
+    }
+    .card_machines_cols
+    {
+        margin: 0;
+    }
+    .cardmachinewidth
+    {
+        width: 40%;
+        font-size: 30px;
+        margin: 30px;
+    }
+    /* Setting up your terminal page */
+    .settingyourterminal-cols
+    {
+        margin: 0;
+    }
+    .settingyourterminal-width.col-1
+    {
+        padding-left: 0;
+    }
+    .settingyourterminal-width img
+    {
+        width: 250px;
+        height: 250px;
+    }
+     
+    .settingyourterminal-cols p
+    {
+        font-size: 35px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .settingyourterminal-rownpad span
+    {
+        font-size: 35px;
+    }
+    
+    /* understanding your terminal page */
+    #understanding-your-terminal 
+    {
+        width: 100%;
+        margin: 0 0px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    #understanding-your-terminal h4
+    {
+        font-size: 30px;
+    }
+    #understanding-your-terminal h2
+    {
+        font-size: 35px;
+    }
+    #understanding-your-terminal h3
+    {
+        font-size: 25px;
+    }
+    /* Reconciling your terminal page */
+    #reconciling-your-terminal
+    {
+        width: 100%;
+        margin: 0;
+        font-size: 35px;
+        padding: 20px;
+    }
+    .iframe-style
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width:414px)
+{
+    /* breadcrumb */
+    #breadcrumbwidth
+    {
+      font-size: 30px;
+      width: 100%;
+      margin: 0;
+      margin-top: 0;
+
+    }
+    #breadcrumbwidth h2,#breadcrumbwidth  h3,#breadcrumbwidth h4
+    {
+        font-size: large;
+    }
+
+    .layout-content
+    {
+      float: none;
+      width: 100%;
+    }
+    /* Side bar */
+    .sidebarfrontpage
+    {
+        width: 414px;
+        text-align: center ;
+        font-size: 15px;
+        letter-spacing: 2px;
+        background-color: rgb(245,245,245);
+    }
+    .sidebarfrontpage nav ul{
+        text-align: left;
+        /* float: left; */
+    }
+    /* header */
+    .link
+    {
+        left: 140px;
+        font-size: 1.5rem;
+    }
+    .logo
+    {
+        width: 150px;
+        height: 50px;
+        left: 0;
+    }
+   .bgimage
+   {
+    margin-left: 0;
+    width: 100%;
+   }
+    /* front page cols */
+   .frontpagecols
+   {
+       margin: 0 -30px 0 0;
+       font-size: 16px;
+       width: 100%;
+   }
+   .frontpagewidth{
+       width: 100%;
+       margin: 0;
+   }
+   /* card machines page */
+   #block-views-block-related-articles-block-1
+   {
+    width: auto;
+   }
+
+   .card-machine-page-header 
+   {
+     width: 100%;
+     margin: 0;
+     height: 12vh;
+     background-color: red;
+   
+    }
+    header.card-machines-cols
+    {  
+        width: 90%;
+        font-size: 20px;
+        margin: 10px 0px 0 20px;
+    }
+    .card_machines_cols
+    {
+        margin: 0;
+       
+    }
+    .cardmachinewidth
+    {
+        width: 100%;
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    /* Setting up your terminal page */
+    .settingyourterminal-cols
+    {
+        margin: 0;
+    }
+    .settingyourterminal-width
+    {
+        width: 100%;
+    }
+    .settingyourterminal-width.col-1
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+    .settingyourterminal-width img
+    {
+        width: 150px;
+        height: 150px;
+    }
+     
+    .settingyourterminal-cols p
+    {
+        font-size: 15px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .settingyourterminal-rownpad span
+    {
+        font-size: 20px;
+    }
+    
+    /* understanding your terminal page */
+    #understanding-your-terminal 
+    {
+        width: 100%;
+        margin: 0 0px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    #understanding-your-terminal h4
+    {
+        font-size: 30px;
+    }
+    #understanding-your-terminal h2
+    {
+        font-size: 35px;
+    }
+    #understanding-your-terminal h3
+    {
+        font-size: 25px;
+    }
+    /* Reconciling your terminal page */
+    #reconciling-your-terminal
+    {
+        width: 100%;
+        margin: 0;
+        font-size: 17px;
+        padding: 20px;
+    }
+    .iframe-style
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+@media(max-width:375px)
+{
+    /* breadcrumb */
+    #breadcrumbwidth
+    {
+      font-size: 30px;
+      width: 100%;
+      margin: 0;
+      margin-top: 0;
+
+    }
+    #breadcrumbwidth h2,#breadcrumbwidth  h3,#breadcrumbwidth h4
+    {
+        font-size: large;
+    }
+
+    .layout-content
+    {
+      float: none;
+      width: 100%;
+    }
+    /* Side bar */
+    .sidebarfrontpage
+    {
+        width: 375px;
+        text-align: center ;
+        font-size: 15px;
+        letter-spacing: 2px;
+        background-color: rgb(245,245,245);
+    }
+    .sidebarfrontpage nav ul{
+        text-align: left;
+        /* float: left; */
+    }
+    /* header */
+    .link
+    {
+        left: 100px;
+        font-size: 1.5rem;
+    }
+    .logo
+    {
+        width: 150px;
+        height: 50px;
+        left: 0;
+    }
+   .bgimage
+   {
+    margin-left: 0;
+    width: 100%;
+   }
+    /* front page cols */
+   .frontpagecols
+   {
+       margin: 0 -30px 0 0;
+       font-size: 15px;
+       width: 100%;
+   }
+   .frontpagewidth{
+       width: 100%;
+       margin: 0;
+   }
+   /* card machines page */
+   #block-views-block-related-articles-block-1
+   {
+    width: auto;
+   }
+
+   .card-machine-page-header 
+   {
+     width: 100%;
+     margin: 0;
+     height: 12vh;
+     background-color: red;
+   
+    }
+    header.card-machines-cols {
+        width: 90%;
+        font-size: 20px;
+        margin: 10px 0px 0 20px;
+    }
+    .card_machines_cols
+    {
+        margin: 0;
+       
+    }
+    .cardmachinewidth
+    {
+        width: 100%;
+        font-size: 15px;
+        margin: 0;
+    }
+    /* Setting up your terminal page */
+    .settingyourterminal-cols
+    {
+        margin: 0;
+    }
+    .settingyourterminal-width
+    {
+        width: 100%;
+    }
+    .settingyourterminal-width.col-1
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+    .settingyourterminal-width img
+    {
+        width: 150px;
+        height: 150px;
+    }
+     
+    .settingyourterminal-cols p
+    {
+
+        font-size: 15px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .settingyourterminal-rownpad span
+    {
+        font-size: 20px;
+    }
+    
+    /* understanding your terminal page */
+    #understanding-your-terminal 
+    {
+        width: 100%;
+        margin: 0 0px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    #understanding-your-terminal h4
+    {
+        font-size: 20px;
+    }
+    #understanding-your-terminal h2
+    {
+        font-size: 25px;
+    }
+    #understanding-your-terminal h3
+    {
+        font-size: 15px;
+    }
+    /* Reconciling your terminal page */
+    #reconciling-your-terminal
+    {
+        width: 100%;
+        margin: 0;
+        font-size: 17px;
+        padding: 20px;
+    }
+    .iframe-style
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width:320px)
+{
+    /* breadcrumb */
+    #breadcrumbwidth
+    {
+      font-size: 20px;
+      width: 100%;
+      margin: 0;
+      margin-top: 0;
+
+    }
+    #breadcrumbwidth h2,#breadcrumbwidth  h3,#breadcrumbwidth h4
+    {
+        font-size: large;
+    }
+
+    .layout-content
+    {
+      float: none;
+      width: 100%;
+    }
+    /* Side bar */
+    .sidebarfrontpage
+    {
+        width: 320px;
+        text-align: center ;
+        font-size: 14px;
+        letter-spacing: 2px;
+        background-color: rgb(245,245,245);
+    }
+    .sidebarfrontpage nav ul{
+        text-align: left;
+        /* float: left; */
+    }
+    /* header */
+    .link
+    {
+        left: 60px;
+        font-size: 1.5rem;
+    }
+    .logo
+    {
+        width: 150px;
+        height: 50px;
+        left: 0;
+    }
+   .bgimage
+   {
+    margin-left: 0;
+    width: 100%;
+   }
+    /* front page cols */
+   .frontpagecols
+   {
+       margin: 0 -30px 0 0;
+       font-size: 15px;
+       width: 100%;
+   }
+   .frontpagewidth{
+       width: 100%;
+       margin: 0;
+   }
+   /* card machines page */
+   #block-views-block-related-articles-block-1
+   {
+    width: auto;
+   }
+
+   .card-machine-page-header 
+   {
+     width: 100%;
+     margin: 0;
+     height: 12vh;
+     background-color: red;
+   
+    }
+    header.card-machines-cols
+    {  
+        width: 90%;
+        font-size: 20px;
+        margin: 10px 0px 0 20px;
+    }
+    .card_machines_cols
+    {
+        margin: 0;
+       
+    }
+    /* .card_machines_cols img 
+    {
+        display: block;
+        margin: auto;
+    } */
+    .cardmachinewidth
+    {
+        width: 100%;
+        font-size: 16px;
+        margin: 0;
+    }
+    /* Setting up your terminal page */
+    .settingyourterminal-cols
+    {
+        margin: 0;
+    }
+    .settingyourterminal-width
+    {
+        width: 100%;
+    }
+    .settingyourterminal-width.col-1
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+    .settingyourterminal-width img
+    {
+        width: 150px;
+        height: 150px;
+    }
+     
+    .settingyourterminal-cols p
+    {
+
+        font-size: 15px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .settingyourterminal-rownpad span
+    {
+        font-size: 20px;
+    }
+    
+    /* understanding your terminal page */
+    #understanding-your-terminal 
+    {
+        width: 100%;
+        margin: 0 0px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    #understanding-your-terminal h4
+    {
+        font-size: 20px;
+    }
+    #understanding-your-terminal h2
+    {
+        font-size: 25px;
+    }
+    #understanding-your-terminal h3
+    {
+        font-size: 15px;
+    }
+    /* Reconciling your terminal page */
+    #reconciling-your-terminal
+    {
+        width: 100%;
+        margin: 0;
+        font-size: 15px;
+        padding: 20px;
+    }
+    .iframe-style
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+

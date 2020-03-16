@@ -1,0 +1,17 @@
+name: mina
+description: WorldPay
+type: theme
+core: 8.x
+libraries:
+  - mina/global-css
+  - mina/global-js
+# stylesheets-remove:
+#   - core/themes/stable/css/views/views.module.css
+#   - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  
